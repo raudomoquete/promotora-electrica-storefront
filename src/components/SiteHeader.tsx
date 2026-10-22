@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { CartBadge } from "./CartBadge";
@@ -18,14 +17,17 @@ export function SiteHeader() {
     <header className={styles.header}>
       <div className={`container ${styles.inner}`}>
         <Link href="/" className={styles.brand}>
-          <Image
+          {/* Native img: next/image mishandles SVG contrast/sizing in navbar */}
+          <img
             src="/brand/logo-mark.svg"
-            alt=""
+            alt="Promotora Eléctrica"
             width={28}
             height={28}
-            priority
+            className={styles.mark}
           />
-          <span className={styles.brandText}>Promotora Eléctrica</span>
+          <span className={styles.brandText} aria-hidden="true">
+            Promotora Eléctrica
+          </span>
         </Link>
         <nav className={styles.nav} aria-label="Principal">
           <Link

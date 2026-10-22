@@ -26,9 +26,11 @@
   font-size: clamp(0.95rem, 2vw, 1.1rem);
 }
 
-.brand img {
+.mark {
   width: 1.75rem;
   height: 1.75rem;
+  flex-shrink: 0;
+  display: block;
 }
 
 .nav {

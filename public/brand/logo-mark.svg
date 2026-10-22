@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Promotora Eléctrica">
-  <title>Promotora Eléctrica mark</title>
-  <rect width="64" height="64" rx="4" fill="#1C232B"/>
-  <path d="M32 10 L48 34 L32 58 L16 34 Z" fill="#C47A3A"/>
-  <path d="M32 22 L40 34 L32 46 L24 34 Z" fill="#F2EFE8"/>
+  <title>Promotora Eléctrica</title>
+  <path d="M32 6 L54 34 L32 58 L10 34 Z" fill="#C47A3A"/>
+  <path d="M32 18 L42 34 L32 48 L22 34 Z" fill="#F2EFE8"/>
 </svg>
