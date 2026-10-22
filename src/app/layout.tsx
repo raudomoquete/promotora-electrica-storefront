@@ -19,13 +19,11 @@ const sourceSans = Source_Sans_3({
   weight: ["400", "500", "600", "700"],
 });
 
-const brand = process.env.NEXT_PUBLIC_BRAND_NAME ?? "Promotora Eléctrica";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 export const metadata: Metadata = {
   title: {
-    default: `${brand} — Ingeniería de transmisión`,
-    template: `%s · ${brand}`,
+    absolute: "Promotora Eléctrica",
   },
   description:
     "Catálogo académico de servicios de transmisión eléctrica: diseño, obra, mantenimiento, estudios y automatización.",

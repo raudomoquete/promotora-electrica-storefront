@@ -2,9 +2,7 @@ import type { Metadata } from "next";
 import { CartView } from "./CartView";
 import styles from "./page.module.css";
 
-export const metadata: Metadata = {
-  title: "Carrito",
-};
+export const metadata: Metadata = {};
 
 export default function CartPage() {
   return (

@@ -2,9 +2,7 @@ import type { Metadata } from "next";
 import { CheckoutForm } from "@/components/CheckoutForm";
 import styles from "./page.module.css";
 
-export const metadata: Metadata = {
-  title: "Checkout académico",
-};
+export const metadata: Metadata = {};
 
 export default function CheckoutPage() {
   return (

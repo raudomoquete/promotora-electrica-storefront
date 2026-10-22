@@ -4,7 +4,6 @@ import { ProductCard } from "@/components/ProductCard";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
-  title: "Catálogo de servicios",
   description:
     "Precios referenciales en DOP. Seis servicios de transmisión con alcance, plazo y modalidad.",
 };
