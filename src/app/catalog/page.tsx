@@ -14,9 +14,7 @@ export default function CatalogPage() {
     <div className={`container ${styles.page}`}>
       <header className={styles.header}>
         <h1>Catálogo de servicios</h1>
-        <p className="muted">
-          Precios referenciales en DOP · pedido académico
-        </p>
+        <p className="muted">Precios referenciales en DOP</p>
       </header>
       <div className={styles.grid}>
         {catalog.map((product) => (

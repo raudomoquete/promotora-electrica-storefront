@@ -25,11 +25,9 @@ export function Hero() {
       </div>
       <div className={styles.content}>
         <h1 className={styles.brand}>Promotora Eléctrica</h1>
-        <p className={styles.headline}>
-          Ingeniería de transmisión, lista para contratar
-        </p>
+        <p className={styles.headline}>Ingeniería de transmisión</p>
         <p className={styles.support}>
-          Ingeniería que conecta el país — diseño, obra, mantenimiento y estudios
+          Ingeniería que conecta el país, diseño, obra, mantenimiento y estudios
           en un solo catálogo académico.
         </p>
         <div className={styles.cta}>
