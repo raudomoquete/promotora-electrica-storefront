@@ -17,13 +17,13 @@ export function SiteHeader() {
     <header className={styles.header}>
       <div className={`container ${styles.inner}`}>
         <Link href="/" className={styles.brand}>
-          {/* Native img: next/image mishandles SVG contrast/sizing in navbar */}
           <img
             src="/brand/logo-mark.svg"
             alt="Promotora Eléctrica"
             width={28}
             height={28}
             className={styles.mark}
+            decoding="async"
           />
           <span className={styles.brandText} aria-hidden="true">
             Promotora Eléctrica

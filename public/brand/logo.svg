@@ -1,8 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 72" role="img" aria-label="Promotora Eléctrica">
-  <title>Promotora Eléctrica</title>
-  <g fill="none" fill-rule="evenodd">
-    <path d="M28 10 L44 38 L28 62 L12 38 Z" fill="#C47A3A"/>
-    <path d="M28 22 L36 38 L28 52 L20 38 Z" fill="#F2EFE8"/>
-    <text x="64" y="46" font-family="Syne, Outfit, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="0.04em" fill="#F2EFE8">PROMOTORA ELÉCTRICA</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 72" fill="none">
+  <path d="M28 10L44 38L28 62L12 38Z" fill="#C47A3A"/>
+  <path d="M28 22L36 38L28 52L20 38Z" fill="#F2EFE8"/>
+  <text x="64" y="46" font-family="Syne, Outfit, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="0.04em" fill="#F2EFE8">PROMOTORA ELECTRICA</text>
 </svg>
