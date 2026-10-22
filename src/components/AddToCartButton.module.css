@@ -1,0 +1,32 @@
+.wrap {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.qtyRow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.qtyRow button {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: var(--radius-interactive);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-elevated);
+  cursor: pointer;
+}
+
+.qty {
+  min-width: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.toast {
+  color: var(--color-accent);
+  font-weight: 600;
+  min-height: 1.25rem;
+}

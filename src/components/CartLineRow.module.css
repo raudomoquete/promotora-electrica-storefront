@@ -1,0 +1,74 @@
+.row {
+  display: grid;
+  gap: 1rem;
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+@media (min-width: 760px) {
+  .row {
+    grid-template-columns: 7rem 1fr auto;
+    align-items: start;
+  }
+}
+
+.thumb {
+  position: relative;
+  width: 7rem;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: var(--radius-interactive);
+  background: var(--color-bg-elevated);
+}
+
+.thumb img {
+  object-fit: cover;
+}
+
+.info h2 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  margin-bottom: 0.35rem;
+}
+
+.options {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  align-items: center;
+}
+
+.qty {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.qty button {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: var(--radius-interactive);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-elevated);
+  cursor: pointer;
+}
+
+.totals {
+  text-align: right;
+}
+
+.unit {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+.lineTotal {
+  font-weight: 700;
+  margin-top: 0.25rem;
+}
